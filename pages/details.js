@@ -29,12 +29,12 @@ const status = () => {
       </header>
 
       <div className="flex-1 pad overflow-y-scroll">
-        <div className="h-16 shadow-sm rounded-lg items-center flex mb-3 px-4">
+        <div className="h-16 shadow-sm rounded-lg items-center flex mb-3 px-4 border-t py-2">
           <img
             className="mr-7 w-11 object-cover rounded-lg"
             src="https://w7.pngwing.com/pngs/283/160/png-transparent-xiaomi-logo-portable-document-format-smartphone-encapsulated-postscript-free-angle-electronics-text.png"
           />
-          <p className="mr-7">Xiaomi</p>
+          <p className="mr-7 text-base font-medium">Xiaomi</p>
           <i className="bi bi-chevron-right text-2xl text-gray-600 ml-auto font-bold"></i>
         </div>
         <Card {...details}></Card>

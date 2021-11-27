@@ -2,7 +2,7 @@ import React from "react";
 
 const OrderCard = (props) => {
   return (
-    <div className="flex py-3 pl-4 pr-6 rounded-xl shadow-md mb-4 items-center">
+    <div className="flex py-3 pl-4 pr-6 rounded-xl shadow-md mb-4 items-center border-t">
       <img className="w-32 h-32 mr-10 object-cover rounded-lg" src={props.img} />
       <div className="flex-1">
         <p className="text-2xl font-bold text-gray-900">{props.name}</p>

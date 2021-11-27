@@ -10,7 +10,7 @@ const message = () => {
 
   return (
     <div className="h-screen flex relative flex-col top-0 left-0">
-      <header className="h-28 flex items-center justify-between sticky w-screen px-4">
+      <header className="h-28 flex items-center justify-between sticky w-screen pad">
         <Link href="/">
           <i className="bi bi-arrow-left text-4xl"></i>
         </Link>
@@ -23,7 +23,7 @@ const message = () => {
         </div>
       </header>
 
-      <div className="flex overflow-x-scroll flex-row w-screen">
+      <div className="flex overflow-x-scroll flex-row w-screen px-3">
         <SliderCard {...details}></SliderCard>
         <SliderCard {...details}></SliderCard>
         {/* <SliderCard {...details}></SliderCard>
