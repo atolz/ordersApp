@@ -38,7 +38,7 @@ const orders = () => {
         {orders.map((order, j) => {
           return (
             <div className="mb-5" key={j}>
-              <h2 className="text-gray-900 font-bold text-2xl">Order ID #{order.id}</h2>
+              <h2 className="text-gray-900 font-bold text-2xl mb-3">Order ID #{order.id}</h2>
               <div>
                 {order.products.map((e, i) => {
                   return <Card {...e} key={i}></Card>;
