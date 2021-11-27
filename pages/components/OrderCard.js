@@ -2,8 +2,8 @@ import React from "react";
 
 const OrderCard = (props) => {
   return (
-    <div className="flex p-3 rounded-3xl shadow-sm mb-4 items-center">
-      <img className="w-32 h-32 mr-5" src="https://www.shawacademy.com/assets/course-cards/mycourse/graphic-design.png" />
+    <div className="flex p-3 rounded-3xl shadow-md mb-4 items-center">
+      <img className="w-32 h-32 mr-10 object-cover" src={props.img} />
       <div className="flex-1">
         <p className="text-2xl font-bold text-gray-900">{props.name}</p>
         <p className="text-blue-700 mb-8 font-bold ">USD {props.price}</p>

@@ -6,7 +6,14 @@ import TimeLine from "./components/timeline";
 import Link from "next/link";
 
 const status = () => {
-  const details = { name: "phantom", price: "888", amt: "2", color: "Slate black", status: "Packing" };
+  const details = {
+    name: "phantom",
+    price: "888",
+    amt: "2",
+    color: "Slate black",
+    status: "Packing",
+    img: "https://5.imimg.com/data5/SELLER/Default/2021/1/DR/QH/SI/14753644/iphone-se2-1-250x250.jpg",
+  };
   return (
     <div className="flex flex-col h-screen relative justify-between top-0 left-0">
       <header className="h-28 flex items-center justify-between sticky w-screen px-4 bg-white top-0 left-0 relative">
@@ -60,7 +67,7 @@ const status = () => {
       <Footer>
         <div className="flex gap-5 items-center flex-1">
           <Button mylink="/messages" text={"Messages(2)"} color="blue"></Button>
-          <Button  mylink="/"text="Cancel Order" color="red"></Button>
+          <Button mylink="/" text="Cancel Order" color="red"></Button>
         </div>
       </Footer>
     </div>
