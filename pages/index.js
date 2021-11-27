@@ -8,7 +8,7 @@ const orders = () => {
     {
       id: "86573",
       products: [
-        { name: "phantom", price: "888", amt: "1", color: "Slate black", status: "Packing", img: "https://kshopey.com/pub/media/iphone-13_2.jpg" },
+        { name: "Phantom X", price: "888", amt: "1", color: "Slate black", status: "Packing", img: "https://kshopey.com/pub/media/iphone-13_2.jpg" },
         {
           name: "Nokia",
           price: "555",

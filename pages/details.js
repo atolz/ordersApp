@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const status = () => {
   const details = {
-    name: "phantom",
+    name: "Phantom",
     price: "888",
     amt: "2",
     color: "Slate black",
@@ -16,22 +16,22 @@ const status = () => {
   };
   return (
     <div className="flex flex-col h-screen relative justify-between top-0 left-0">
-      <header className="h-28 flex items-center justify-between sticky w-screen px-4 bg-white top-0 left-0 relative">
+      <header className="h-28 flex items-center justify-between sticky w-screen pad bg-white top-0 left-0 relative">
         <Link
           mylink
           href={{
             pathname: "/",
           }}
         >
-          <i className="bi bi-arrow-left text-4xl"></i>
+          <i className="bi bi-arrow-left text-4xl font-extrabold"></i>
         </Link>
         <i className="bi bi-three-dots-vertical text-4xl"></i>
       </header>
 
-      <div className="flex-1 px-5 overflow-y-scroll">
-        <div className="h-16 shadow-sm rounded-lg items-center flex px-4 mb-3">
+      <div className="flex-1 pad overflow-y-scroll">
+        <div className="h-16 shadow-sm rounded-lg items-center flex mb-3 px-4">
           <img
-            className="mr-7 w-11 object-cover"
+            className="mr-7 w-11 object-cover rounded-lg"
             src="https://w7.pngwing.com/pngs/283/160/png-transparent-xiaomi-logo-portable-document-format-smartphone-encapsulated-postscript-free-angle-electronics-text.png"
           />
           <p className="mr-7">Xiaomi</p>

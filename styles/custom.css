@@ -61,3 +61,7 @@
 .cardd {
     min-width: 24rem;
 }
+
+.pad{
+    padding: 0 2.4rem;
+}
