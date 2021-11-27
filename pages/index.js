@@ -30,7 +30,7 @@ const orders = () => {
   return (
     <div className="h-screen px-4">
       <header className="h-28 flex items-center">
-        <i className="bi bi-list text-4xl"></i>
+        <i className="bi bi-list text-5xl"></i>
       </header>
       <h1 className="text-4xl font-bold mb-8">My Orders</h1>
       <div className="flex flex-col">
